@@ -1,0 +1,63 @@
+<html>
+
+<head>
+
+<meta name = "viewport" content = "width = device-width">
+<meta name="viewport" content="user-scalable=no, width=device-width"/>
+
+<link type="text/css" rel="stylesheet" media="all" href="../css/mathmotion.css" />
+<script type="text/javascript" language="javascript" charset="utf-8" src="../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript"src="../js/sm_imgmotion.js" ></script>    
+<script type="text/javascript"src="../js/javascript/uniberg.js" ></script>    
+
+<script type="text/javascript">
+
+  var imgs = [
+          "images/wtc2_sm/wtc_ani_v105_001.jpg",
+        "images/wtc2_sm/wtc_ani_v105_002.jpg",
+        "images/wtc2_sm/wtc_ani_v105_003.jpg",
+        "images/wtc2_sm/wtc_ani_v105_004.jpg",
+        "images/wtc2_sm/wtc_ani_v105_005.jpg",
+        "images/wtc2_sm/wtc_ani_v105_006.jpg",
+        "images/wtc2_sm/wtc_ani_v105_007.jpg",
+        "images/wtc2_sm/wtc_ani_v105_008.jpg",
+        "images/wtc2_sm/wtc_ani_v105_009.jpg",
+        "images/wtc2_sm/wtc_ani_v105_010.jpg",
+        "images/wtc2_sm/wtc_ani_v105_011.jpg",
+        "images/wtc2_sm/wtc_ani_v105_012.jpg",
+        "images/wtc2_sm/wtc_ani_v105_013.jpg",
+        "images/wtc2_sm/wtc_ani_v105_014.jpg",
+        "images/wtc2_sm/wtc_ani_v105_015.jpg",
+        "images/wtc2_sm/wtc_ani_v105_016.jpg",
+        "images/wtc2_sm/wtc_ani_v105_017.jpg",
+        "images/wtc2_sm/wtc_ani_v105_018.jpg",
+        "images/wtc2_sm/wtc_ani_v105_019.jpg",
+        "images/wtc2_sm/wtc_ani_v105_020.jpg"
+
+  ]
+    
+$(document).ready(function(){
+
+    imgMotion.init('div#imgmotion', imgs, true);
+
+});
+
+</script>
+
+</head>
+
+<body>
+    <a href='wtc2.html'><img style="position: absolute; top: 900px; right:50px; opacity: 0.5;" src="../images/btn_close_x_icon.png"/></a>
+    <div>
+         <div id="html5-showcase"> 
+             <div id="threesixty">
+                 <section id="threesixty-main1"> 
+                     <div id="imgmotion"></div>
+                     <img class="imgmotion" src="images/wtc2_sm/wtc_ani_v105_001.jpg" ontouchend="event.stopPropagation(); call('imageSequenceOpen', '%22eb91670365b44b22aff0e4bd2c84cc36%22')" alt=""/>
+                 </section> 
+             </div>
+         </div>
+     </div>    
+</body>
+
+</html>

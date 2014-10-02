@@ -1,0 +1,802 @@
+/* ------------------------------ Basic Article Styles -------------------------------- */
+
+body
+{
+	margin: 0em;
+	padding: 0em;
+	background-color: #fff;
+}
+
+.this_issue  /* for the 'this issue' screen that presents the cover and buttons */
+{
+	text-align: center;
+	background-image: url(images/bg_this_issue.png);
+}
+
+.masthead /* for the top article header - creates a fullspan colored bar, usually with an image or text on top */
+{
+	width: 100%;
+	background-image: url(images/AppHeaders_tile.png);
+	margin: 0em;
+	padding: 0em;
+}
+
+.masthead .floatright
+{
+	margin: 10px 10px 0 0;
+}
+
+.subheader
+{
+	font-family: helvetica;
+	font-size: 1.25em;
+	color: #666666;
+	font-weight: normal;
+	line-height: 1.25em;
+	text-transform: uppercase;
+}
+
+.article  /* wrapped around the entire content to create side margins */
+{
+	width: 568px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+p
+{
+	font-family: georgia;
+	font-size: 1.0em;
+	line-height: 1.5em;
+}
+
+.level2 /* used to indent level 2 content if necessary */
+{
+	margin-left: 20px;
+}
+
+.level3 /* used to indent level 3 content if necessary */
+
+{
+	margin-left: 40px;
+}
+
+.hyperlink
+{
+	color: #666666;
+	text-decoration: underline;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
+hr
+{
+	border: 0;
+	background-color: #999999;
+	height: 1px;
+	width: 100%;
+}
+
+map /* prevents unwanted spacing when an image map is used */
+{
+	position: absolute;
+}
+
+.title
+{
+	font-family: georgia;
+	font-size: 80px;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+	line-height:1.1em;
+	margin:0px;
+}
+
+
+.subtitle
+{
+	font-family: georgia;
+	font-size: 24px;
+	color: #1d9eec;
+	font-weight: 300;
+	line-height: 1.25em;
+}
+
+.summary
+{
+	font-style: italic;
+	font-size: 1.00em;
+	color: #8B8B8B;
+	font-weight: normal;
+	line-height: 1.50em;
+	letter-spacing: 0.031em;
+}
+
+.body_header1
+{
+	font-family: helvetica;
+	color: #6d849f;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.body_header2
+{
+	font-family: helvetica;
+	color: #000000;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.body_header3
+{
+	font-family: helvetica;
+	color: #000000;
+	font-size: 1.00em;
+	font-weight: bold;
+}
+
+.dropcap_first
+{
+	font-size: 950%;
+	float: left;
+	line-height: 0.78em;
+	padding-right: 0.09em;
+}
+
+.dropcap
+{
+	font-size: 306%;
+	float: left;
+	line-height: 0.98em;
+	padding-right: 0.2em;
+}
+
+.dropcap_rest
+{
+	font-size: 75%;
+	float: left;
+	line-height: 0.78em;
+	padding-right: 0.09em;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing:1px;
+}
+
+.lead_text1
+{
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.lead_text2
+{
+	font-family: helvetica;
+	color: #C60B0B;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.lead_text3
+{
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing:2px;
+}
+
+.author
+{
+	font-size: 21px;
+	font-family: georgia;
+	font-weight: 300;
+	margin: 25px 0px 0px 0px;
+}
+
+.name
+{
+	text-transform: uppercase;
+}
+
+.name_title
+{
+	text-transform: none;
+	margin-top: -1.00em;
+}
+
+.caption
+{
+	font-size: 0.80em;
+	font-family: helvetica;
+	font-weight: bold;
+	color: #999999;
+	line-height: 1.20em;
+	text-align: center;
+}
+
+.footnote
+{
+	font-size: 0.80em;
+	font-family: georgia;
+	font-weight: normal;
+	line-height: 1.20em;
+}
+
+/* ------------------------------ Overriding Style Attributes - Use these styles to override single instances of a parent style - i.e., make a single word in a title light weight when the default is bold -------------------------------- */
+
+.light /* -- to override bold -- */
+{
+	font-weight: normal;
+}
+
+.roman /* -- to override italic -- */
+{
+	font-style: normal;
+}
+
+.caps /* -- to make text uppercase -- */
+{
+	text-transform: uppercase;
+}
+
+.sans /* -- to override serif text -- */
+{
+	font-family: helvetica;
+}
+
+.serif /* -- to override sans-serif text -- */
+{
+	font-family: georgia;
+}
+
+/* ------------------------------ Positioning Attributes -------------------------------- */
+
+.center
+{
+	text-align: center;
+}
+
+.right
+{
+	text-align: right;
+}
+
+.left
+{
+	text-align: left;
+}
+
+.floatleft
+{
+	float: left;
+	padding-right: 10px;
+}
+
+.floatright
+{
+	float: right;
+	padding-left: 10px;
+}
+
+.middle
+{
+	vertical-align: middle;
+}
+
+/* ------------------------------ Image Styles -------------------------------- */
+
+img.bordered
+{
+	border: solid;
+	border-width: 1px;
+	border-color:#CCCCCC;
+}
+
+.more_icon
+{
+	position: relative;
+	margin-left: -36px;
+	margin-top: -36px;
+}
+
+.header
+{
+	margin-left:50px;
+	margin-top:50px;
+}
+
+/* ------------------------------ Quote Styles -------------------------------- */
+
+.quote
+{
+	margin: -13px 0px 11px 0px;
+	padding: 11px 0px;
+	width: 668px;
+	border-top: solid;
+	border-top-color: #999999;
+	border-top-width: 1px;
+	border-bottom: solid;
+	border-bottom-color: #999999;
+	border-bottom-width: 1px;
+}
+.quote p.quote_text {
+	margin: 0px;
+}
+
+.quote_text
+{
+    font-family: georgia;
+	font-style: italic;
+	font-weight: 300;
+	color: #1d9eec;
+	text-align: justify;
+	font-size: 1.25em;
+	margin: 0;
+	padding: 0;
+}
+
+.quote .name
+{
+	font-family: helvetica;
+	font-weight: bold;
+	color: #999999;
+	text-align: right;
+}
+
+.quote .name_title
+{
+	font-family: helvetica;
+	color: #999999;
+	text-align: right;
+}
+
+/* ------------------------------ Table Styles -------------------------------- */
+
+.basic_table
+{
+	font-family: helvetica;
+	border-top: solid;
+	border-top-width: 1px;
+	border-top-color: #999999;
+	border-left: solid;
+	border-left-width: 1px;
+	border-left-color: #999999;
+}
+
+.basic_table th
+{
+	font-size: 0.80em;
+	text-transform: uppercase;
+	background-color: #CCCCCC;
+	padding: 5px;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #999999;
+	border-right: solid;
+	border-right-width: 1px;
+	border-right-color: #999999;
+}
+
+.basic_table td
+{
+	padding: 5px;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #999999;
+	border-right: solid;
+	border-right-width: 1px;
+	border-right-color: #999999;
+}
+
+/* ------------------------------ Inline Sidebar Styling Attributes -------------------------------- */
+
+
+.inline_sidebar
+{
+	background-color:  #eeeeee;
+	padding: 5px 10px 5px 10px;
+	margin-bottom:20px;
+}
+
+.inline_sidebar .title
+{
+	font-size: 1.20em;
+	color: #000000;
+	font-weight: bold;
+	text-align: left;
+	line-height:1.25em;
+}
+
+.inline_sidebar p
+{
+	font-family: helvetica;
+	font-size: 1.00em;
+}
+
+.inline_sidebar .more_icon
+{
+	margin: -15px -10px -15px 5px;
+}
+
+/* ------------------------------ Related Article Styling Attributes -------------------------------- */
+
+.related_article
+{
+	width: 100%;
+}
+
+.related_header
+{
+	font-family: helvetica;
+	color: #666666;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px 5px 10px;
+	background-color: #cccccc;
+}
+
+.related_title
+{
+	font-family: helvetica;
+	font-size: 1.00em;
+	color: #333333;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.related_button
+{
+	float: right;
+	padding-left: 10px;
+}
+
+/* ---------------------------- Next, Previous and Main Article Styling Attributes ------------------------- */
+
+.prev_next
+{
+	padding: 20px 0 40px 0;
+	width: 100%;
+}
+
+.prev_button
+{
+	float: left;
+}
+
+.next_button
+{
+	float: right;
+}
+
+.prev_next_title
+{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 15px;
+	font-weight: bold;
+	margin: -43px 0 0 0;
+	padding: 0px 10px 0px 10px;
+	height: 30px;
+	overflow: hidden;
+}
+
+.back_button
+{
+	text-align: center;
+	padding: 20px 0 40px 0;
+}
+
+/* --------------------------------------------------------------------------- */
+/* ---------------------------- Sidebar Page Styles ---------------------------- */
+/* --------------------------------------------------------------------------- */
+
+.sidebar
+{
+	background-color: #cccccc;
+}
+
+.sidebar p
+{
+	font-family: helvetica;
+	font-size: 1.0em;
+	line-height: 1.5em;
+}
+
+.sidebar .title
+{
+	font-size: 1.50em;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: left;
+	line-height:1.25em;
+	background-color: #666666;
+	margin: -10px;
+	padding: 20px 10px 10px 10px;
+}
+
+.sidebar .body_header1
+{
+	font-family: helvetica;
+	color: #005395;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-transform: none;
+}
+
+.sidebar .body_header2
+{
+	font-family: helvetica;
+	color: #000000;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.sidebar .summary
+{
+	color: #000000;
+}
+
+/* --------------------------------------------------------------------------- */
+/* ---------------------------- This Way In Styles ---------------------------- */
+/* --------------------------------------------------------------------------- */
+
+.thisway .body_header1
+{
+	color: #005395;
+}
+
+.thisway .summary
+{
+	font-family: helvetica;
+	color: #6d6e71;
+}
+
+.thisway .name
+{
+	text-align: right;
+}
+
+.thisway .name_title
+{
+	text-align: right;
+	font-style: italic;
+}
+
+.thisway .quote
+{
+	padding: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-top: none;
+	border-bottom: none;
+	background-color: #ffd33d;
+}
+
+.thisway .quote_text
+{
+    font-family: georgia;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+
+.page {
+	position: relative;
+    height: 924px;
+    width: 668px;
+	padding-top: 50px;
+	padding-bottom:50px;
+	padding-left:50px;
+	padding-right:50px;
+    overflow: hidden;
+}
+
+.page_header {
+	clear: both;		
+	padding: 75px 120px 40px 0px;
+
+}
+
+.page *{
+	float:left;
+}
+
+.page em, .page span {
+	float: none;
+}
+
+.page span.dropcap, .page span.dropcap_first, .page span.from_the_editor_dropfirst, .page span.letters_dropfirst {
+	float: left;
+}
+
+.page p.title, .page p.subtitle, .page p.author{
+	clear: both;
+}
+
+.page p {
+	margin-bottom: 24px;
+	margin-top: 0px;
+}
+
+.page_header p {
+	margin: 0;
+	padding: 0;
+}
+.page_header p.subtitle, .page_header p.author {
+	margin: 16px 0px 0px 0px;
+}
+.column1, .column2 {
+	width: 321px; 
+}
+
+.column1 {
+	float: left;
+}
+.column2 {
+	float: right;
+}
+
+.split_first {
+	width:1px;
+	height: 700px;
+	border-left: 1px solid black; 
+	margin:60px 10px 0px 10px;
+}
+
+.split {
+	width:1px; 
+	height: 934px; 
+	border-left: 1px solid black; 
+	margin:20px 10px; 
+}
+
+.blockquote {
+	font-size: 1.0em;
+	line-height: 1.5em;
+	padding: 0.5em 1em 0em 1em;
+}
+
+.comment {
+    border-top: 1px solid #777;
+    -webkit-box-shadow:0px 1px 0 0 #ddd inset;
+    -moz-box-shadow:0px 1px 0 0 #ddd inset;
+    box-shadow:0px 1px 0 0 #ddd inset;
+    font-style:italic;
+    padding-top: 5px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+/*------------------------------------------from the editor---------------------------------------------------------*/
+.from_the_editor_page_header {
+	padding-top: 100px;
+	padding-bottom:20px;
+	float:none;
+}
+
+
+.editor_title
+{
+	font-family: georgia;
+	font-size: 80px;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	line-height:1.1em;
+	margin:0px;
+	padding: 0px;
+	width: 100%;
+}
+
+
+.from_the_editor_dropfirst
+{
+	font-size: 550%;
+	float: left;
+	line-height: 0.78em;
+	padding-right: 0.09em;
+	
+}
+
+
+.from_the_editor_indent
+{
+	text-indent:20px;
+}
+
+.page p.from_the_editor_indent, .page p.from_the_editor_begin{
+	float:left;
+	margin-bottom: 0px;
+}
+
+.page p.from_the_editor_indent_special
+{
+	float:left;
+	margin-bottom: 24px;
+
+}
+
+/*------------------------------------------from the letter---------------------------------------------------------*/
+.letters_page_header {
+	padding: 0px 0px 30px 0px;
+	float:none;
+}
+
+.letters_title
+{
+	font-family: georgia;
+	font-size: 30px;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	line-height:1.1em;
+	margin:0px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	width: 100%;
+	border-bottom: 1px solid #000000;
+}
+
+.letters_big_title
+{
+	font-family: georgia;
+	font-size: 60px;
+	color: #ca6323;
+	font-weight: normal;
+	text-align: left;
+	line-height:1.1em;
+	margin:0px;
+	padding-bottom:30px;
+	padding-top:5px;
+}
+
+.letters_dropfirst
+{
+	font-size: 330%;
+	float: left;
+	line-height: 0.90em;
+	padding-right: 0.09em;
+	
+}
+
+p.location 
+{
+    font-style:italic;
+	text-align:right;
+	float:right;
+}
+
+.letters_location
+{
+	float:right;
+
+}
+
+p reader_small
+{
+	font-size:14px;
+}
+
+
+p.letters_p
+{
+	margin-bottom:0px;
+}

@@ -1,0 +1,171 @@
+.lybl3-btns{
+  position: absolute;
+  width: 83px;
+  height: 83px;  
+  top: 557px;
+}
+
+#lybl3-btn01
+{
+    left: 25px;
+}
+
+#lybl3-btn02
+{
+    left: 111px;
+}
+
+#lybl3-btn03
+{
+    left: 198px;
+}
+
+#lybl3-btn04
+{
+    left: 280px;
+}
+
+#lybl3-btn05
+{
+    left: 366px;
+}
+
+.lybl4-btns{
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  left: 645px;  
+}
+
+#lybl4-btn01
+{
+    top: 360px;
+}
+
+#lybl4-btn02
+{
+    top: 450px;
+}
+
+#lybl4-btn03
+{
+    top: 530px;
+}
+
+#lybl4-btn04
+{
+    top: 615px;
+}
+
+#lybl4-btn05
+{
+    top: 700px;
+}
+
+.lybl8-btns{
+  position: absolute;
+  width: 83px;
+  height: 83px;  
+  top: 563px;
+}
+
+#lybl8-btn01
+{
+    left: 20px;
+}
+
+#lybl8-btn02
+{
+    left: 107px;
+}
+
+#lybl8-btn03
+{
+    left: 193px;
+}
+
+#lybl8-btn04
+{
+    left: 275px;
+}
+
+#lybl8-btn05
+{
+    left: 361px;
+}
+
+#button-overlay{
+  position:absolute; 
+  top:10px; 
+  left:10px;
+  width:130px; 
+  height:373px;
+  display:none; 
+  z-index:10000;   
+} 
+
+.photo_group
+{
+	top:56px;
+	left:157px;
+	width:608px;
+	height:900px;
+	position:absolute;
+	display:block;
+}
+
+.photo_single
+{
+  width:276px;
+  height:290px;
+  position:relative;
+  display:block;
+  float:left;
+  margin-left:7px;
+  margin-right:7px;
+  margin-top:10px;
+  margin-bottom:10px;
+  
+}
+
+.photo_single img
+{
+  top:10px;
+  position:relative;
+  display:block;
+}
+
+.photo_text_fisrt
+{
+  top:0px;
+  position:relative;
+  display:block;
+  height:18px;
+  font-size:12px;
+  font-weight:900;
+}
+
+.photo_text_second
+{
+  top:5px;
+  position:relative;
+  display:block;
+  height:18px;
+  font-size:12px;
+  font-weight:100;
+}
+
+
+
+#tap
+{
+  bottom:10px; 
+  left:10px; 
+  width:40px; 
+  height:40px; 
+  display:block;
+}
+* {
+	
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}

@@ -1,0 +1,105 @@
+/* Coloring        */
+
+.topRowButton, .bottomRowButton {
+	position: absolute;
+	z-index: 3;
+}
+
+.topRowButton { top: 10px; }
+.bottomRowButton { top: 665px; }
+
+#referenceImage {
+	z-index:2;
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+
+#toolpanel {
+	position:absolute;
+	left:822px;
+	top:0px;
+	z-index:3;
+	width:202px; 
+	height:768px; 
+	border:none;
+}
+
+#brush {
+	position:absolute;
+	left:965px;
+	top:0px;
+	z-index:5; 
+	background: url('../images/coloring/coloring_ipad_brush_slider.png') no-repeat center; 
+	width: 59px; 
+	height: 458px; 
+	cursor: pointer;
+}
+
+.mainArea {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#save-popup {
+	z-index:9999;
+	background-image:url('../images/coloring/popup_panel_large.png');
+	position:absolute;
+	top:150px;
+	left:200px;
+	width:456px;
+	height:456px;
+}
+
+#savableImage {
+	position:absolute; 
+	left: 100px; 
+	top: 40px; 
+}
+
+#save-ok {
+	width: 178px;
+	height: 63px;
+	position:absolute; 
+	top:363px; 
+	left:138px;
+}
+
+.popupspan {
+	font-size:18px; 
+	font-family: helvetica; 
+	color:white; 
+	position:absolute; 
+	text-align:center;
+}
+
+#leave-popup {
+	z-index:9999; 
+	background-image:url('../images/coloring/popup_panel.png'); 
+	position:absolute; 
+	top:200px; 
+	left:204px; 
+	width:458px; 
+	height:264px; 
+}
+
+#leave-yes, #leave-no {
+	width: 178px; 
+	height: 63px;
+	position:absolute;
+	top:170px;
+}
+
+#help-popup {
+	z-index:9999; 
+	background:url('../images/coloring/coloring_chrome_help_popup.png') no-repeat 0 0;
+	cursor: pointer;
+	position:absolute; 
+	top:100px; 
+	left:147px; 
+	width:560px; 
+	height:568px; 
+}

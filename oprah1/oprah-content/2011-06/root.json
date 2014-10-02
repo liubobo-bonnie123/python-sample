@@ -1,0 +1,620 @@
+[
+    "Root", 
+    {
+        "indexEntries": {}, 
+        "printedPages": {}, 
+        "strips": {
+            "_strip_root": [
+                "Strip", 
+                {
+                    "stripParent": null, 
+                    "stripPages": [
+                        "cover", 
+                        "Article_Editor", 
+                        "Report_Tobin", 
+                        "Letter_Siegel_Stern", 
+                        "Letter_DiSalvo", 
+                        "Joke_Epstein", 
+                        "TwoPassoverJokes", 
+                        "After_Bin_Laden", 
+                        "Article_Gordis", 
+                        "Article_Schanzer", 
+                        "Article_Kirchick", 
+                        "Article_Voegeli", 
+                        "Article_Foreman", 
+                        "Article_Epstein", 
+                        "Book_Ahmari", 
+                        "Book_Reynolds", 
+                        "Book_Johnson", 
+                        "Book_Goodwin", 
+                        "Article_Teachout", 
+                        "Book_Munson", 
+                        "Article_Ferguson" 
+                    ]
+                }
+            ]
+        }, 
+        "videos": {}, 
+        "links": {
+            "link_Article_Editor": [
+                "Link", 
+                {
+                    "linkPage": "Article_Editor", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Article_Epstein": [
+                "Link", 
+                {
+                    "linkPage": "Article_Epstein", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Article_Ferguson": [
+                "Link", 
+                {
+                    "linkPage": "Article_Ferguson", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Article_Foreman": [
+                "Link", 
+                {
+                    "linkPage": "Article_Foreman", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Article_Gordis": [
+                "Link", 
+                {
+                    "linkPage": "Article_Gordis", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Article_Kirchick": [
+                "Link", 
+                {
+                    "linkPage": "Article_Kirchick", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_After_Bin_Laden": [
+                "Link", 
+                {
+                    "linkPage": "After_Bin_Laden", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Article_Schanzer": [
+                "Link", 
+                {
+                    "linkPage": "Article_Schanzer", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Article_Teachout": [
+                "Link", 
+                {
+                    "linkPage": "Article_Teachout", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Article_Voegeli": [
+                "Link", 
+                {
+                    "linkPage": "Article_Voegeli", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Book_Ahmari": [
+                "Link", 
+                {
+                    "linkPage": "Book_Ahmari", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Book_Goodwin": [
+                "Link", 
+                {
+                    "linkPage": "Book_Goodwin", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Book_Johnson": [
+                "Link", 
+                {
+                    "linkPage": "Book_Johnson", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Book_Munson": [
+                "Link", 
+                {
+                    "linkPage": "Book_Munson", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Book_Reynolds": [
+                "Link", 
+                {
+                    "linkPage": "Book_Reynolds", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_cover": [
+                "Link", 
+                {
+                    "linkPage": "cover", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Joke_Epstein": [
+                "Link", 
+                {
+                    "linkPage": "Joke_Epstein", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Letter_DiSalvo": [
+                "Link", 
+                {
+                    "linkPage": "Letter_DiSalvo", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Letter_Siegel_Stern": [
+                "Link", 
+                {
+                    "linkPage": "Letter_Siegel_Stern", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_Report_Tobin": [
+                "Link", 
+                {
+                    "linkPage": "Report_Tobin", 
+                    "linkAnchor": null
+                }
+            ], 
+            "link_TwoPassoverJokes": [
+                "Link", 
+                {
+                    "linkPage": "TwoPassoverJokes", 
+                    "linkAnchor": null
+                }
+            ]
+        }, 
+        "sections": {
+            "section_Article_Editor": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Rooted", 
+                    "sectionStartPage": "Article_Editor", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Article_Epstein": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Duh, Bor-ing", 
+                    "sectionStartPage": "Article_Epstein", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Article_Ferguson": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Press Man: Everybody—With a Capital “E”", 
+                    "sectionStartPage": "Article_Ferguson", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Article_Foreman": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "The Rumsfeld Version", 
+                    "sectionStartPage": "Article_Foreman", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Article_Gordis": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Are Young Rabbis Turning on Israel?", 
+                    "sectionStartPage": "Article_Gordis", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Article_Kirchick": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "The Con Man and His Pet Columnist", 
+                    "sectionStartPage": "Article_Kirchick", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_After_Bin_Laden": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "After_Bin_Laden", 
+                    "sectionStartPage": "After_Bin_Laden", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Article_Schanzer": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Fatah, Hamas, and the Statehood Gambit", 
+                    "sectionStartPage": "Article_Schanzer", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Article_Teachout": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "The Two-Way Street", 
+                    "sectionStartPage": "Article_Teachout", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Article_Voegeli": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Why Corporations Love Regulation", 
+                    "sectionStartPage": "Article_Voegeli", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Book_Ahmari": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "The Levantine Crucible", 
+                    "sectionStartPage": "Book_Ahmari", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Book_Goodwin": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "The Race Case", 
+                    "sectionStartPage": "Book_Goodwin", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Book_Johnson": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Walled In", 
+                    "sectionStartPage": "Book_Johnson", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Book_Munson": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "The Free Reputation", 
+                    "sectionStartPage": "Book_Munson", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Book_Reynolds": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "The Lochner Ness Monster", 
+                    "sectionStartPage": "Book_Reynolds", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_cover": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Cover", 
+                    "sectionStartPage": "cover", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Joke_Epstein": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "The Rabbi’s Widow Joke", 
+                    "sectionStartPage": "Joke_Epstein", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Letter_DiSalvo": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Reformers and Reactionaries", 
+                    "sectionStartPage": "Letter_DiSalvo", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Letter_Siegel_Stern": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "Bloomberg Undone", 
+                    "sectionStartPage": "Letter_Siegel_Stern", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_Report_Tobin": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "The Commentary Report on Jewish Life", 
+                    "sectionStartPage": "Report_Tobin", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ], 
+            "section_TwoPassoverJokes": [
+                "Section", 
+                {
+                    "sectionCategories": [], 
+                    "sectionTitle": "TwoPassoverJokes", 
+                    "sectionStartPage": "TwoPassoverJokes", 
+                    "sectionChildren": [], 
+                    "sectionSubtitle": " ", 
+                    "sectionImage": " "
+                }
+            ]
+        }, 
+        "galleries": {}, 
+        "imageSequences": {}, 
+        "favorites": {}, 
+        "images": {}, 
+        "toc": [
+            "section_cover", 
+            "section_Article_Editor", 
+            "section_Article_Epstein", 
+            "section_Article_Ferguson", 
+            "section_Article_Foreman", 
+            "section_Article_Gordis", 
+            "section_Article_Kirchick", 
+            "section_After_Bin_Laden", 
+            "section_Article_Schanzer", 
+            "section_Article_Teachout", 
+            "section_Article_Voegeli", 
+            "section_Book_Ahmari", 
+            "section_Book_Goodwin", 
+            "section_Book_Johnson", 
+            "section_Book_Munson", 
+            "section_Book_Reynolds", 
+            "section_Joke_Epstein", 
+            "section_Letter_DiSalvo", 
+            "section_Letter_Siegel_Stern", 
+            "section_Report_Tobin", 
+            "section_TwoPassoverJokes" 
+       ], 
+        "equations": {}, 
+        "pages": {
+            "Article_Editor": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Article_Editor.html"
+                }
+            ], 
+            "Article_Epstein": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Article_Epstein.html"
+                }
+            ], 
+            "Article_Ferguson": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Article_Ferguson.html"
+                }
+            ], 
+            "Article_Foreman": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Article_Foreman.html"
+                }
+            ], 
+            "Article_Gordis": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Article_Gordis.html"
+                }
+            ], 
+            "Article_Kirchick": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Article_Kirchick.html"
+                }
+            ], 
+            "After_Bin_Laden": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/After_Bin_Laden.html"
+                }
+            ], 
+            "Article_Schanzer": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Article_Schanzer.html"
+                }
+            ], 
+            "Article_Teachout": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Article_Teachout.html"
+                }
+            ], 
+            "Article_Voegeli": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Article_Voegeli.html"
+                }
+            ], 
+            "Book_Ahmari": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Book_Ahmari.html"
+                }
+            ], 
+            "Book_Goodwin": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Book_Goodwin.html"
+                }
+            ], 
+            "Book_Johnson": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Book_Johnson.html"
+                }
+            ], 
+            "Book_Munson": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Book_Munson.html"
+                }
+            ], 
+            "Book_Reynolds": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Book_Reynolds.html"
+                }
+            ], 
+            "cover": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/cover.html"
+                }
+            ], 
+            "Joke_Epstein": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Joke_Epstein.html"
+                }
+            ], 
+            "Letter_DiSalvo": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Letter_DiSalvo.html"
+                }
+            ], 
+            "Letter_Siegel_Stern": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Letter_Siegel_Stern.html"
+                }
+            ], 
+            "Report_Tobin": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/Report_Tobin.html"
+                }
+            ], 
+            "TwoPassoverJokes": [
+                "Page", 
+                {
+                    "pageTitle": "NoTitle", 
+                    "pageImage": " ", 
+                    "pageFilename": "pages/TwoPassoverJokes.html"
+                }
+            ] 
+      }, 
+        "categories": {}
+    }
+]

@@ -1,0 +1,65 @@
+p
+{
+    text-indent: 13px;
+    margin: 0;
+}
+
+#wtcp1main
+{
+    margin: 0 40px 20px 40px;
+}
+
+#wtcp4main
+{
+    margin: 0 40px 20px 40px;
+}
+
+#wtcp6main
+{
+    margin: 0 40px 0 40px;
+}
+
+#wtcp8main
+{
+    margin: 0 40px 20px 40px;
+}
+
+#restofpage
+{
+    margin: 0 40px 0 40px;
+}
+
+#dropill
+{
+    float: left;
+    margin-right: 5px;
+}
+
+#dropthis
+{
+    float: left;
+    margin-right: 5px;
+}
+
+.smallcaps
+{
+    text-transofrm: uppercase;
+    font-size: 110%
+}
+
+.mast
+{
+    margin-bottom: 20px;
+}
+
+body.wtc2 a#wtc2_button_audio {
+	//display: none;
+	background: url(../images/wtc_sm_leadin.jpg) top left no-repeat;
+	position: absolute;
+	z-index: 50;
+	width: 768px;
+	height: 1024px;
+}
+body.wtc2 a#wtc2_button_audio:active {
+	opacity: 0.5;
+}

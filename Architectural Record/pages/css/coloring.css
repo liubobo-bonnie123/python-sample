@@ -1,0 +1,94 @@
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+
+html {
+	background-color: #333;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	-webkit-transform: rotate(90deg);
+/*	background: url("images/pentel_pens_markers_wood_napkin_screen/napkin_bg_1.png");
+*/}
+
+#tablewrap {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#wrapper {
+	background-color: #333;
+	margin: 0 auto;
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#content {
+	overflow: hidden;
+	height: 768px;
+	width: 1024px;
+	position: relative;
+}
+
+/* Holds the background image for the       . Child of content. */
+.container {
+	overflow:hidden;
+	left:0px;
+	background-color:#333;
+} 
+
+/* Class applied to the background image. Child of container. */
+.background_image{
+	position:absolute;
+	border:0px;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left:0px;
+	-webkit-transition: -webkit-transform 2s;
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform:scale(1.0) translate(0,0);
+	-moz-transition: -moz-transform 2s;
+	-moz-transform-origin: 0% 0%;
+	-moz-transform:scale(1.0) translate(0,0);
+}
+
+
+/* Selection        */
+
+.bottom_Curve {
+	position:absolute;
+	width:1024px;
+	height:100px;
+	top:670px;
+	left:0px;
+}
+
+.top_Curve{
+	position:absolute;
+	width:1024px;
+	height:100px;
+	top:0px;
+	left:0px;
+}
+
+#coloring-popup {
+	background-image:url('../images/coloring/popup_panel.png');
+	position:absolute;
+	top:240px;
+	left:283px;
+	padding: 80px 30px 30px 30px;
+	width:398px;
+	height:154px;
+	font-size:18px;
+	font-family: helvetica;
+	color:white; 
+}
+
+.gImage { position: absolute; cursor: pointer; }
+.topgImage { background-color:#fff; width: 195px; height: 260px; }
+.bottomgImage { width: 230px; height: 298px; }

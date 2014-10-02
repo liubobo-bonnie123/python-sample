@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.manifest">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta HTTP-EQUIV="Expires" CONTENT="0">
+    <title>Drawing and Coloring</title>
+	<script type="text/javascript" src="javascript/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="javascript/coloring.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/coloring.css" />
+	<link rel="stylesheet" type="text/css" href="css/coloring_canvas.css" />
+</head>
+<body onload="loadPage();">
+<img src="images/coloring/crayon_cursor.gif" style="display: none;">
+
+<div id="tablewrap">
+	<div align="center" id="wrapper">
+		<div id="content">
+			<div>
+				<a href='Article_Editor.html'><img src="images/coloring/button_home.png" style="left:10px;" class="topRowButton" onClick="leaveColoring('main')"/></a>
+				<img src="images/coloring/help.png" style="left:747px" class="topRowButton" onClick="showHelp(event, true);"/>
+			</div>
+			
+			<div id="container">
+				<canvas style="z-index:1;" class="mainArea" id="drawplane" width="847" height="768"></canvas>
+			</div>
+		
+			<div onmouseover="showCrayanCursor()" onmouseout="showDefaultCursor()" style="background-color: #fff;">
+				<div id="referenceImage" class="mainArea"><img src="images/pentel_pens_markers_wood_napkin_screen/background_transparent.png"></div>
+           
+
+			<div style="background-color: #fff; height: 768px">
+				<img id="toolpanel" src="images/pentel_pens_markers_wood_napkin_screen/8pens.png" usemap="#Map" />
+				<map name="Map" id="Map">
+					<area shape="rect" coords="66,240,120,287" href="#1" onclick="changeColor(5)" />
+					
+					<area shape="rect" coords="51,287,105,334" href="#3" onclick="changeColor(12)" />
+					
+					<area shape="rect" coords="49,336,103,383" href="#6" onclick="changeColor(11)" />
+					
+					<area shape="rect" coords="39,384,93,431" href="#8" onclick="changeColor(4)" />
+					
+					<area shape="rect" coords="31,431,85,478" href="#10" onclick="changeColor(3)" />
+					
+					<area shape="rect" coords="30,478,84,520" href="#12" onclick="changeColor(10)" />
+					
+					<area shape="rect" coords="20,521,74,563" href="#14" onclick="changeColor(2)" />
+					
+					<area shape="rect" coords="7,564,61,600" href="#16" onclick="changeColor(1)" />
+                    
+				</map>
+			</div>
+		
+			<div>
+				<img src="images/coloring/Pages.png" style="left:10px;" class="bottomRowButton" onclick="leaveColoring('selection')"/>
+				<img src="images/coloring/Save.png" style="left:747px;" class="bottomRowButton" onclick="saveImage()"/>
+			</div>
+			
+			<div id="brush"></div>
+		
+			<div id="save-popup" style="display:none">
+				<img src="" id="savableImage" style="width:250px;">
+				<p class="popupspan" style="width:456px; top:270px; left:0px;">Right click on this thumbnail above and select<br>
+				"Save image as..." to save your picture. Then click "Done."</p>
+				<div onclick="showSavePopup(false);" onmouseover="showPointerCursor()" onmouseout="showDefaultCursor()">
+					<img id="save-ok" src="images/coloring/popup_button.png" />
+					<span class="popupspan" style="font-weight:bold; top:381px; left:203px;">Done</span>
+				</div>
+			</div>
+		
+			<div id="leave-popup" style="display:none">
+				<p class="popupspan" style="top:70px; left:65px;">Are you sure you want to leave this page?<br>Your coloring will not be saved.</p>
+				<div onclick="hideLeavePopup(event, true, true);" onmouseover="showPointerCursor()" onmouseout="showDefaultCursor()">
+					<img id="leave-yes" src="images/coloring/popup_button.png" style="left:50px;" />
+					<span class="popupspan" style="font-weight:bold; top:191px; left:125px;">Yes</span>
+				</div>
+				<div onclick="hideLeavePopup(event, true, false);" onmouseover="showPointerCursor()" onmouseout="showDefaultCursor()">
+					<img id="leave-no" src="images/coloring/popup_button.png" style="left:240px;"/>
+					<span class="popupspan" style="font-weight:bold; top:191px; left:315px;">No</span>
+				</div>
+			</div>
+		
+			<div id="help-popup" style="display: none" onClick="showHelp(event, false);"></div>
+                
+
+		</div>
+	</div></div>
+</div>
+</body>
+</html>

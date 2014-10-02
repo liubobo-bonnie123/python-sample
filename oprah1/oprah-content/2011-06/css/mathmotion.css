@@ -1,0 +1,19 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+div#controller {
+	float: right;
+	width: 120px;
+	background-image: url('right_column_tile.png');
+	background-repeat: repeat-y;
+	background-position: right;
+}
+div#controller img {
+
+}
+
+div#mmath {
+	width: 608px;
+	margin: 0 20px 0px 20px;
+}

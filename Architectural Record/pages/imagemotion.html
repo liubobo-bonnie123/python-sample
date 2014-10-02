@@ -1,0 +1,71 @@
+<html>
+  <head>
+
+    <style type="text/css">
+      body {
+        padding: 0;
+        margin: 0;
+      }
+	
+	    </style>
+    <script type="text/javascript" src="../js/sm.gestures.single.js" ></script>    
+    <script type="text/javascript" src="../js/imagemotion.js" ></script>    
+    <script type="text/javascript">
+      var imgs = [
+          "images/wtc2_sm/wtc_ani_v105_001.jpg",
+        "images/wtc2_sm/wtc_ani_v105_002.jpg",
+        "images/wtc2_sm/wtc_ani_v105_003.jpg",
+        "images/wtc2_sm/wtc_ani_v105_004.jpg",
+        "images/wtc2_sm/wtc_ani_v105_005.jpg",
+        "images/wtc2_sm/wtc_ani_v105_006.jpg",
+        "images/wtc2_sm/wtc_ani_v105_007.jpg",
+        "images/wtc2_sm/wtc_ani_v105_008.jpg",
+        "images/wtc2_sm/wtc_ani_v105_009.jpg",
+        "images/wtc2_sm/wtc_ani_v105_010.jpg",
+        "images/wtc2_sm/wtc_ani_v105_011.jpg",
+        "images/wtc2_sm/wtc_ani_v105_012.jpg",
+        "images/wtc2_sm/wtc_ani_v105_013.jpg",
+        "images/wtc2_sm/wtc_ani_v105_014.jpg",
+        "images/wtc2_sm/wtc_ani_v105_015.jpg",
+        "images/wtc2_sm/wtc_ani_v105_016.jpg",
+        "images/wtc2_sm/wtc_ani_v105_017.jpg",
+        "images/wtc2_sm/wtc_ani_v105_018.jpg",
+        "images/wtc2_sm/wtc_ani_v105_019.jpg",
+        "images/wtc2_sm/wtc_ani_v105_020.jpg"
+      ];
+
+      if (document.images) {
+        preloadedImgs = new Array();
+        for(var i = 0; i < imgs.length; i++) {
+          preloadedImgs[i] = new Image();
+          preloadedImgs[i].src = imgs[i];
+        }
+      }
+
+      window.onload = function() {
+        var threesixty = document.getElementById("threesixty");
+
+        var animation = new imgMotion();
+        animation.images = imgs;
+        
+        threesixty.addEventListener("touchstart", function() { 
+          threesixty.gesture = new Gesture();
+          threesixty.gesture.touchStart(event);
+        }, false);
+        threesixty.addEventListener("touchmove", function() { 
+          threesixty.gesture.touchMove(event);
+          animation.dragAnimation(threesixty.gesture);
+        }, false);
+        threesixty.addEventListener("touchend", function() { 
+          delete threesixty.gesture; 
+        }, false);
+
+      }
+    </script>
+  </head>
+  <body>
+  <div id="page">
+    <img id="threesixty" src="images/wtc2_sm/wtc_ani_v105_001.jpg" />
+  </div>
+  </body>
+</html>
